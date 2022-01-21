@@ -12,6 +12,7 @@ class SQRServiceTest {
         int actual = service.square();
         assertEquals(expected, actual);
     }
+
     @Test
     public void shouldMaxSquare() {
         SQRService service = new SQRService();
@@ -19,6 +20,7 @@ class SQRServiceTest {
         int actual = service.maxSquare();
         assertEquals(expected, actual);
     }
+
     @Test
     public void shouldNotSquare() {
         SQRService service = new SQRService();

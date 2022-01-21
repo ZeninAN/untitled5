@@ -13,6 +13,7 @@ public class SQRService {
         System.out.println("Количество корней = " + count);
         return count;
     }
+
     public int maxSquare() {
         int count = 0;
         int bottom = 100;
@@ -25,6 +26,7 @@ public class SQRService {
         System.out.println("Количество корней = " + count);
         return count;
     }
+
     public int notSquare() {
         int count = 0;
         int bottom = 5;
