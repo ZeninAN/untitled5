@@ -9,7 +9,7 @@ class SQRServiceTest {
     public void shouldSquare() {
         SQRService service = new SQRService();
         int expected = 5;
-        int actual = service.square(service.bottom,service.up);
+        int actual = service.square();
         assertEquals(expected, actual);
     }
 }

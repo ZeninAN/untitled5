@@ -1,12 +1,11 @@
 package ru.netology.sqr;
 
 public class SQRService {
-    int bottom = 100;
-    int up = 200;
-
-    public int square(int bottom,int up) {
+    public int square() {
         int count = 0;
-        for (int i = 8; i < 100; i++) {
+        int bottom = 100;
+        int up = 200;
+        for (int i = 10; i < 100; i++) {
             if (i * i >= bottom && i * i <= up) {
                 count = count + 1;
             }
